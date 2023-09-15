@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5006,7 +5006,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1483612391}
   - component: {fileID: 1483612393}
-  - component: {fileID: 1483612392}
   m_Layer: 0
   m_Name: natur
   m_TagString: Untagged
@@ -5031,21 +5030,6 @@ Transform:
   - {fileID: 1602823612}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1483612392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483612390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77ffe3b653725e4479136e5607060c9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _waypoints: []
-  _speed: 0
-  _checkDistance: 0.05
 --- !u!65 &1483612393
 BoxCollider:
   m_ObjectHideFlags: 0
