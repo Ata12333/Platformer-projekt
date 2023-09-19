@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -579,6 +579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombieee
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed424b4f683f4c3449397af06bfe351e, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     - target: {fileID: 8417361359673230750, guid: ed424b4f683f4c3449397af06bfe351e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -720,6 +724,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: afb0408669fd25b45865a07f460b6485, type: 3}
       propertyPath: m_Name
       value: flyve-platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: afb0408669fd25b45865a07f460b6485, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1132,6 +1140,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a34c6529b73074b47a5780ef18937792, type: 3}
       propertyPath: m_Name
       value: Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a34c6529b73074b47a5780ef18937792, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 4306643203051859313, guid: a34c6529b73074b47a5780ef18937792, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1773,6 +1785,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2074c71a17ad26b48ab9e5c4fc37eea5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1065062606}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2074c71a17ad26b48ab9e5c4fc37eea5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1912676260}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2074c71a17ad26b48ab9e5c4fc37eea5, type: 3}
       insertIndex: -1
@@ -2291,6 +2306,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 25ad44b5b015ba84e99f9592ae39691d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 25ad44b5b015ba84e99f9592ae39691d, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3750,6 +3769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tigerrr
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3a3ca88d5c9543d4fb47d88aca4faa56, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4456,6 +4479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: zombie-platform
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3b201464843d3d439e0ca2c79abb052, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4846,6 +4873,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 911b880355a02914cbb80beafa05a563, type: 3}
       propertyPath: m_Name
       value: Crocodile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 911b880355a02914cbb80beafa05a563, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 7603786706384944740, guid: 911b880355a02914cbb80beafa05a563, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5585,6 +5616,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 30c4e49e9176dad4d88654e05173f4e0, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5666,6 +5701,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a34c6529b73074b47a5780ef18937792, type: 3}
       propertyPath: m_Name
       value: Bear (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a34c6529b73074b47a5780ef18937792, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 4306643203051859313, guid: a34c6529b73074b47a5780ef18937792, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5903,6 +5942,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c2151cb03bd8b334dbbce7eef77aa1b6, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6052,6 +6095,7 @@ GameObject:
   - component: {fileID: 1729203799}
   - component: {fileID: 1729203798}
   - component: {fileID: 1729203800}
+  - component: {fileID: 1729203801}
   m_Layer: 0
   m_Name: First Person Player
   m_TagString: Player
@@ -6124,6 +6168,18 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &1729203801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729203797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134452de7d5bef4782eade29ffe2e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1733861149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6683,6 +6739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tigerrr (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3a3ca88d5c9543d4fb47d88aca4faa56, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6876,12 +6936,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912676258}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 3.4, y: 32.9, z: 28.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.90767336, y: -0.24321029, z: -0.08852132, w: 0.33036613}
+  m_LocalPosition: {x: 0.0015175141, y: -0.13440003, z: 0.658}
+  m_LocalScale: {x: 0.00055470475, y: 0.0021227046, z: 0.0028860897}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1325833628}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1966758623
 PrefabInstance:
@@ -6942,6 +7002,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7be7a214e1e4fbe4c848762f801fb413, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7be7a214e1e4fbe4c848762f801fb413, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7510,7 +7574,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1912676260}
   - {fileID: 492729469}
   - {fileID: 1729203799}
   - {fileID: 294982300}

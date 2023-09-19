@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -36,12 +37,23 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetButtonDown("Jump") && isGorunded)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -1f * gravity);
+            velocity.y = Mathf.Sqrt(jumpHeight * -0.5f * gravity);
         }
 
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+        
+
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        Debug.Log(hit.gameObject.name);
+        if(hit.gameObject.tag == "Car")
+        {
+               SceneManager.LoadScene("game");
+        }
     }
 }
 
